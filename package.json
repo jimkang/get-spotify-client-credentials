@@ -1,0 +1,26 @@
+{
+  "name": "get-spotify-client-credentials",
+  "version": "1.0.0",
+  "description": "Given a client id and client secret, gets client credentials from the Spotify API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/get-spotify-client-credentials.git"
+  },
+  "keywords": ["spotify", "auth"],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/get-spotify-client-credentials/issues"
+  },
+  "homepage": "https://github.com/jimkang/get-spotify-client-credentials",
+  "devDependencies": {
+    "assert-no-error": "^1.0.0",
+    "request": "^2.79.0",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {}
+}
